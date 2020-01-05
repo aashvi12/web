@@ -19,4 +19,26 @@
 
 .grid > div:hover{
     transform: scale(1.05);
+   animation-name: t1;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+}
+
+@keyframes t1{
+    0%{
+        border-color: cyan;
+    }
+    25%{
+        border-color: magenta;
+    }
+    50%{    
+        border-color: yellow;
+    }
+    75%{
+        border-color: white;
+    }
+    100%{
+        border-color: black;
+    }
 }
